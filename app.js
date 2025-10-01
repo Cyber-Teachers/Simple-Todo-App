@@ -5,9 +5,10 @@ const todoList = document.getElementById('todo-list'); // The unordered list (<u
 let counter = 0;
 // Function to add a new task
 const addTask = () => {
-    if counter > 10:
+    if(counter > 10){
         alert('You have reached the maximum number of tasks');
         return;
+    }
     // Get the text entered in the input field and remove unnecessary spaces
     const taskText = todoInput.value.trim();
 
